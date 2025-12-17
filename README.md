@@ -1,125 +1,184 @@
-# CSS Grid Garden: Solutions
+# 🌱 CSS Grid Garden — Solutions
 
-The Game: http://cssgridgarden.com
 
-The Repo: http://github.com/thomaspark/gridgarden
+## 📌 About
+Bu sənəd **CSS Grid Garden** oyununda verdiyim cavabların səliqəli və oxunaqlı şəkildə toplanmış versiyasıdır. Dizayn minimal saxlanılıb — əsas fokus kod və öyrənmə prosesidir.
 
-My answers:
+---
 
-## Level 1
+## ✅ Level Solutions
 
-`grid-column-start: 3;`
+### Level 1
 
-## Level 2
+```css
+grid-column-start: 3;
+```
 
-`grid-column-start: 5;`
+### Level 2
 
-## Level 3
+```css
+grid-column-start: 5;
+```
 
-`grid-colunn-end: 4;`
+### Level 3
 
-## Level 4
+```css
+grid-column-end: 4;
+```
 
-`grid-column-end: 2;`
+### Level 4
 
-## Level 5
+```css
+grid-column-end: 2;
+```
 
-`grid-column-end: -2;`
+### Level 5
 
-## Level 6
+```css
+grid-column-end: -2;
+```
 
-`grid-column-start: -3;`
+### Level 6
 
-## Level 7
+```css
+grid-column-start: -3;
+```
 
-`grid-column-end: span 2;`
+### Level 7
 
-## Level 8
+```css
+grid-column-end: span 2;
+```
 
-`grid-column-end: span 5;`
+### Level 8
 
-## Level 9
+```css
+grid-column-end: span 5;
+```
 
-`grid-column-start: span 3;`
+### Level 9
 
-## Level 10
+```css
+grid-column-start: span 3;
+```
 
-`grid-column: 4 / 6;`
+### Level 10
 
-## Level 11
+```css
+grid-column: 4 / 6;
+```
 
-`grid-column: 2 / 5;`
+### Level 11
 
-## Level 12
+```css
+grid-column: 2 / 5;
+```
 
-`grid-row-start: 3;`
+### Level 12
 
-## Level 13
+```css
+grid-row-start: 3;
+```
 
-`grid-row: 3 / 6;`
+### Level 13
 
-## Level 14
+```css
+grid-row: 3 / 6;
+```
 
-`grid-column: 2 / 3;`
-`grid-row: 5 / 6;`
+### Level 14
 
-## Level 15
+```css
+grid-column: 2 / 3;
+grid-row: 5 / 6;
+```
 
-`grid-column: 2 / 6;`
-`grid-row: 1 / 6;`
+### Level 15
 
-## Level 16
+```css
+grid-column: 2 / 6;
+grid-row: 1 / 6;
+```
 
-`grid-area: 1 / 2 / 4 / 6;`
+### Level 16
 
-## Level 17
+```css
+grid-area: 1 / 2 / 4 / 6;
+```
 
-`grid-area: 2 / 3 / 5 / 6;`
+### Level 17
 
-## Level 18
+```css
+grid-area: 2 / 3 / 5 / 6;
+```
 
-`order: 5;`
+### Level 18
 
-## Level 19
+```css
+order: 5;
+```
 
-`order: -1;`
+### Level 19
 
-## Level 20
+```css
+order: -1;
+```
 
-`grid-template-columns: 50% 10% 25% 5% 10%;`
+### Level 20
 
-## Level 21
+```css
+grid-template-columns: 50% 10% 25% 5% 10%;
+```
 
-`grid-template-columns: repeat(8, 12.5%);`
+### Level 21
 
-## Level 22
+```css
+grid-template-columns: repeat(8, 12.5%);
+```
 
-`grid-template-columns: 100px 3em 40%;`
+### Level 22
 
-## Level 23
+```css
+grid-template-columns: 100px 3em 40%;
+```
 
-`grid-template-columns: 1fr 5fr;`
+### Level 23
 
-## Level 24
+```css
+grid-template-columns: 1fr 5fr;
+```
 
-`grid-template-columns: 50px 1fr 1fr 1fr 50px;`
+### Level 24
 
-## Level 25
+```css
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+```
 
-`grid-template-columns: 75px 3fr 2fr;`
+### Level 25
 
-## Level 26
+```css
+grid-template-columns: 75px 3fr 2fr;
+```
 
-I had to look this one up:
+### Level 26
 
-`grid-template-rows: repeat(4,12.5px) 1fr`
+> 🔍 Araşdırma ilə tapılıb
 
-## Level 27
+```css
+grid-template-rows: repeat(4, 12.5px) 1fr;
+```
 
-`grid-template: 60% 40% / 200px;`
+### Level 27
 
-## Level 28
+```css
+grid-template: 60% 40% / 200px;
+```
 
-Looked this one up too:
+### Level 28
 
-`grid-template: 1fr 50px / 1fr 4fr;`
+> 🔍 Araşdırma ilə tapılıb
+
+```css
+grid-template: 1fr 50px / 1fr 4fr;
+```
+
